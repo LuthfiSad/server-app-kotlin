@@ -1,4 +1,4 @@
-package com.example.serverapp.server
+package com.example.serverapp.nerwork
 
 import com.example.serverapp.data.storage.VerificationState
 import io.ktor.http.cio.websocket.Frame

@@ -1,4 +1,4 @@
-package com.example.serverapp.ui
+package com.example.serverapp
 
 import android.content.Intent
 import android.os.Bundle

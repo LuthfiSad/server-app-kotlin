@@ -36,10 +36,17 @@ android {
     buildFeatures {
         viewBinding = true
     }
-    packaging {
+    packagingOptions {
         resources {
-            excludes += "META-INF/io.netty.versions.properties"
-            excludes += "META-INF/INDEX.LIST"
+            excludes += setOf(
+                "/META-INF/io.netty.versions.properties",
+                "/META-INF/INDEX.LIST",
+                "/META-INF/DEPENDENCIES",
+                "/META-INF/LICENSE",
+                "/META-INF/LICENSE.txt",
+                "/META-INF/NOTICE",
+                "/META-INF/NOTICE.txt"
+            )
         }
     }
 }

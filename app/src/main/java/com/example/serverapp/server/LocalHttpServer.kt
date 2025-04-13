@@ -5,6 +5,7 @@ import android.util.Log
 import com.example.serverapp.data.model.VerificationRequest
 import com.example.serverapp.data.model.VerificationResult
 import com.example.serverapp.data.storage.VerificationState
+import com.example.serverapp.nerwork.WebSocketHandler
 import io.ktor.application.*
 import io.ktor.features.*
 import io.ktor.gson.*

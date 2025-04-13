@@ -1,4 +1,4 @@
-package com.example.serverapp.ui
+package com.example.serverapp
 
 import android.os.Bundle
 import android.widget.Toast
